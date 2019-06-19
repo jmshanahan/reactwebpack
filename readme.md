@@ -20,3 +20,9 @@ https://medium.com/free-code-camp/how-to-combine-webpack-4-and-babel-7-to-create
 1. Add support for async/await in our code
 2. Create a NodeJS server using ExpressJS for our production build
 3. Code Splitting (Not included even though it is in the tutorial) note if using codesplitting use  "@babel/plugin-syntax-dynamic-import", in the .babelrd
+
+
+### Authors starter kit
+
+Looks like an impressive starter kit on github
+https://github.com/adeelibr/react-starter-kit
