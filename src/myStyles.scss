@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: powderblue;
     color: black;
   }
   
@@ -7,4 +7,9 @@ body {
     width: 450px;
     margin: 0 auto;
     padding-top: 50px;
+    & .app-header {
+      height: 250px;
+      width: inherit;
+      object-fit: cover;
+    }
   }
