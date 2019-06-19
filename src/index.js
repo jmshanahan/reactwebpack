@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './myStyles.scss'
 
 class App extends React.Component {
 
   state = {
     CaptainKirkBio: {},
+    Foo: null
   };
 
   componentDidMount() {
     this.onGetKirkBio();
+
   }
 
   onGetKirkBio = async () => {
@@ -33,7 +36,7 @@ class App extends React.Component {
   };
   render(){
 
-    const { CaptainKirkBio } = this.state;
+    const { CaptainKirkBio, Foo } = this.state;
     return (
       
       <div className="app">
@@ -51,7 +54,7 @@ class App extends React.Component {
             <p style={{ wordBreak: 'break-all' }}>{JSON.stringify(CaptainKirkBio)}</p>
           )}
         </section>
-    </div>
+           </div>
   );
 }
 };

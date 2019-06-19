@@ -16,3 +16,7 @@ https://medium.com/free-code-camp/how-to-combine-webpack-4-and-babel-7-to-create
 6. Generating a visualizer in production build to check which chunk of code is how big and what are the dependencies of the chunks. Super useful.
 7. Support for static files
 
+### Advanced setup
+1. Add support for async/await in our code
+2. Create a NodeJS server using ExpressJS for our production build
+3. Code Splitting (Not included even though it is in the tutorial) note if using codesplitting use  "@babel/plugin-syntax-dynamic-import", in the .babelrd
